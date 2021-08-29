@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+import TimerView from "./components/TimerView"
+import TimeChanger from "./components/TimeChanger"
+
 function App() {
   return (
     <div className="App">
+      <TimeChanger />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         MobX Example
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <TimerView />
       </header>
-    </div>
+    </div >
   );
 }
 
