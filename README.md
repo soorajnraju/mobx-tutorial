@@ -1,7 +1,7 @@
 # Getting Started with Create React App With MobX
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-and [mobx] (https://mobx.js.org/installation.html)\
+and [mobx] (https://mobx.js.org/installation.html)
 
 In this tutorial we are using mobx for state management and we are changing the state of a child component from a sibling component via a singleton model class.
 
